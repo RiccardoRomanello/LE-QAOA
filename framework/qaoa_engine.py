@@ -14,6 +14,7 @@ class QAOAEngine:
 
     @staticmethod
     def optimize_qaoa(H_cost, H_mixer, num_qubits, p=1, steps=50, lr=0.1):
+        # change first parameter to lightning.gpu if you have a compatible GPU
         dev = qml.device("default.qubit", wires=num_qubits)
 
         @qml.qnode(dev)
@@ -33,6 +34,7 @@ class QAOAEngine:
     
     @staticmethod
     def sample_qaoa(H_cost, H_mixer, num_qubits, params, p=1, shots=1000):
+        # change first parameter to lightning.gpu if you have a compatible GPU
         dev = qml.device("default.qubit", wires=num_qubits, shots=shots)
 
         @qml.qnode(dev)

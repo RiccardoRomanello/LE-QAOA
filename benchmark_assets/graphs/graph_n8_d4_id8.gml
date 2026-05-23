@@ -37,6 +37,10 @@ graph [
   ]
   edge [
     source 0
+    target 5
+  ]
+  edge [
+    source 0
     target 2
   ]
   edge [
@@ -44,8 +48,8 @@ graph [
     target 1
   ]
   edge [
-    source 0
-    target 7
+    source 1
+    target 2
   ]
   edge [
     source 1
@@ -53,31 +57,23 @@ graph [
   ]
   edge [
     source 1
-    target 6
-  ]
-  edge [
-    source 1
-    target 7
-  ]
-  edge [
-    source 2
-    target 4
-  ]
-  edge [
-    source 2
-    target 5
-  ]
-  edge [
-    source 2
     target 3
   ]
   edge [
+    source 2
+    target 4
+  ]
+  edge [
+    source 2
+    target 7
+  ]
+  edge [
     source 3
     target 5
   ]
   edge [
     source 3
-    target 4
+    target 7
   ]
   edge [
     source 3
@@ -85,10 +81,10 @@ graph [
   ]
   edge [
     source 4
-    target 6
+    target 5
   ]
   edge [
-    source 5
+    source 4
     target 7
   ]
   edge [

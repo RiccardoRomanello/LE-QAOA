@@ -24,3 +24,6 @@ This repository contains the official implementation of **LE-QAOA**, a framework
     python main.py
    ```
    to verify that the procedure was carried out correctly.
+
+4. **Tests**
+   Run the Python Notebook called `Benchmark.ipynb` to replicate all the results you can find in the paper. 
